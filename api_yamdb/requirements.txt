@@ -1,0 +1,12 @@
+django==2.2.16
+djangorestframework==3.12.4
+pytest==6.2.4
+pytest-django==4.4.0
+pytest-pythonpath==0.7.3
+gunicorn==20.0.4
+psycopg2-binary==2.8.6
+requests==2.26.0
+Pillow==8.3.1
+sorl-thumbnail==12.7.0
+djoser
+django-filter
