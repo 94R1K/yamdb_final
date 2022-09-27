@@ -1,7 +1,6 @@
+from api_yamdb.settings import VERSION_URL
 from django.urls import include, path
 from rest_framework import routers
-
-from api_yamdb.settings import VERSION_URL
 
 from .views import (CategoryViewSet, CommentReviewViewSet, GenreViewSet,
                     ReviewViewSet, TitleViewSet, UserViewSet, confrim_user,

@@ -1,6 +1,5 @@
-from django.core.mail import send_mail
-
 from api_yamdb.settings import PROJECT_EMAIL, URL_FOR_GET_TOKEN
+from django.core.mail import send_mail
 
 
 def send_code_by_email(user):
