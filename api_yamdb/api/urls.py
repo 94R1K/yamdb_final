@@ -3,10 +3,9 @@ from rest_framework import routers
 
 from api_yamdb.settings import VERSION_URL
 
-from .views import (CategoryViewSet, CommentReviewViewSet,
-                    GenreViewSet, ReviewViewSet, TitleViewSet,
-                    UserViewSet, request_for_registration, confrim_user)
-
+from .views import (CategoryViewSet, CommentReviewViewSet, GenreViewSet,
+                    ReviewViewSet, TitleViewSet, UserViewSet, confrim_user,
+                    request_for_registration)
 
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet, basename='users')
