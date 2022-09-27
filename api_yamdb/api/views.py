@@ -22,13 +22,13 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           UsersSerializer)
 
 
-@api_view(['POSt', ])
+@api_view(['POST', ])
 def request_for_registration(request):
     serializer = RequestCreateUserSerialise(data=request.data)
     if serializer.is_valid(raise_exception=True):
         serializer.save(confirmation_code=secrets.token_hex(16))
         send_code_by_email(serializer.instance)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+    return Response(serializer.data, status=status.HTTP_200_OK)
 
 
 @api_view(['POST', ])
@@ -54,8 +54,7 @@ class UserViewSet(viewsets.ModelViewSet):
     # pagination_class = PageNumberPagination
 
     def get_object(self):
-        user = get_object_or_404(User, username=self.kwargs.get('pk'))
-        return user
+        return get_object_or_404(User, username=self.kwargs.get('pk'))
 
     @action(
         detail=False,
