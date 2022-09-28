@@ -18,17 +18,12 @@ services:
       - .env
   nginx:
     image: nginx:1.21.3-alpine
-
     ports:
       - "80:80"
-
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-
       - static_value:/var/html/static/
-
       - media_value:/var/html/media/
-
     depends_on:
       - web
 
