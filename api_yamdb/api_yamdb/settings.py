@@ -28,7 +28,6 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '158.160.6.170',
     'localhost',
-    'ya-tube.sytes.net',
     '127.0.0.1',
 ]
 
