@@ -1,5 +1,5 @@
 ### [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Проект+API+YaMDB+by+Y4R1K)](https://git.io/typing-svg)
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/94R1K/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # Описание
 Проект предназначен для взаимодействия с API социальной сети YaMDb. YaMDb собирает отзывы пользователей на различные произведения.
 
