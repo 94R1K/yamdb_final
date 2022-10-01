@@ -25,7 +25,7 @@ services:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       - static_value:/var/html/static/
       - media_value:/var/html/media/
-      - ./static/redoc/:/var/html/static/redoc.yaml
+      - ./static/redoc/:/var/html/redoc/
     depends_on:
       - web
 
