@@ -58,7 +58,7 @@ pip install -r requirements.txt
 Из папки /infra/ выполнить команду создания и запуска контейнеров:
 
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 Выполнить миграции:
