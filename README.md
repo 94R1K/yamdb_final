@@ -114,6 +114,6 @@ E-mail: real-man228@yandex.ru \
 VK: https://vk.com/94r1k \
 Telegram: @y4r1k0
 # Развернутый проект можно посмотреть по ссылкам:
-http://158.160.6.170/api/v1/
-http://158.160.6.170/admin/
+http://158.160.6.170/api/v1/ \
+http://158.160.6.170/admin/ \
 http://158.160.6.170/redoc/
