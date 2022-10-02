@@ -79,20 +79,6 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input 
 ```
 
-Теперь проект доступен по адресу http://localhost/admin/
-
-# Заполнение базы данных
-Скопировать файл с дампом базы данных из папки /infra/ в контейнер:
-
-```
-docker cp fixtures.json infra-web-1:/app/fixtures.json
-```
-Заполнить базу данных из файла с дампом:
-
-```
-docker-compose exec web python manage.py loaddata fixtures.json
-```
-
 # Техническая информация
 Стек технологий: Python 3, Django, Django Rest, Docker, PostgreSQL, nginx, gunicorn, simple JWT.
 
@@ -104,7 +90,7 @@ API фреймворк: Django REST (контейнер web)
 Веб-сервер nginx перенаправляет запросы клиентов к контейнеру web, либо к хранилищам (volume) статики и файлов.
 Контейнер nginx взаимодействует с контейнером web через gunicorn.
 
-### Дополнительное описание API доступно по http://localhost/redoc/
+### Дополнительное описание API доступно по http://158.160.6.170/redoc/
 
 # Об авторе
 Лошкарев Ярослав Эдуардович \
@@ -116,4 +102,3 @@ Telegram: @y4r1k0
 # Развернутый проект можно посмотреть по ссылкам:
 http://158.160.6.170/api/v1/ \
 http://158.160.6.170/admin/ \
-http://158.160.6.170/redoc/
