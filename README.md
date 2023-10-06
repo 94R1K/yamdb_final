@@ -96,9 +96,7 @@ API фреймворк: Django REST (контейнер web)
 Лошкарев Ярослав Эдуардович \
 Python-разработчик (Backend) \
 Россия, г. Москва \
-E-mail: real-man228@yandex.ru \
-VK: https://vk.com/94r1k \
-Telegram: @y4r1k0
-# Развернутый проект можно посмотреть по ссылкам:
-http://158.160.6.170/api/v1/ \
-http://158.160.6.170/admin/ \
+E-mail: real-man228@yandex.ru 
+
+[![VK](https://img.shields.io/badge/Вконтакте-%232E87FB.svg?&style=for-the-badge&logo=vk&logoColor=white)](https://vk.com/yalluv)
+[![TG](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yallluv)
